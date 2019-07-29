@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper__content">
+            <header class="header">
+                <div class="container box-flex">
+                    <div class="logo">
+                        <a href="#" class="logo-link">
+                            <img class="logo-img" src="img/logo.svg" alt="Лого">Bran<span class="logo-span">d</span>
+                        </a>
+                    </div>
+
+                    <form class="form" action="#" method="post">
+                        <div class="form__button-wrapper">
+                            <button class="form__dropdown-button" type="button">Browse<i class="fas fa-caret-down form__caret-down"></i></button>
+
+                        </div>
+                        <input class="form__input" type="search" name="search" placeholder="Search for Item...">
+                        <button class="form__search-button" type="submit"><i class="fas fa-search form__search-icon"></i></button>
+                    </form>
+
+                    <div class="user-account">
+
+                        <div class="user-account__wrapper user-account__wrapper--hover">
+                            <a class="user-account__basket-link" href="#"><img class="user-account__basket-img" width="31" height="29" src="img/basket-icon.svg" alt="Корзина"></a>
+
+
+                        </div>
+
+                        <button class="user-account__button" type="button">My Account<i class="fas fa-caret-down user-account__caret-down"></i></button>
+                    </div>
+                </div>
+            </header>
+
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <div class="navbar-button">
+                        <button class="navbar-button__nav" type="button" data-target="#navbar-menu">
+                            <span class="navbar-button__line"></span>
+                            <span class="navbar-button__line"></span>
+                            <span class="navbar-button__line"></span>
+                        </button>
+                    </div>
+                    <ul class="navbar-menu navbar-menu--flex" id="navbar-menu">
+                        <li class="navbar-menu__active"><span class="navbar-menu__link">Home</span></li>
+                        <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Man</a></li>
+                        <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Women</a></li>
+                        <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Kids</a></li>
+                        <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Accoseriese</a></li>
+                        <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Featured</a></li>
+                        <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Hot Deals</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section class="brand-box">
+                <div class="container">
+                    <div class="brand">
+                        <h1 class="brand__title">
+                            <strong class="brand__strong">The Brand</strong>
+                            <span class="brand__span">of luxerious <span class="brand__span-color">fashion</span></span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="special">
+                <div class="container special--flex">
+                    <ul class="special-block">
+                        <li class="special-block__big">
+                            <a href="#">
+                                <img src="img/banner1.jpg" alt="Горячее предложение для мужчин">
+                                <h3 class="special-block__title">Hot deal<strong class="special-block__strong">For Men</strong></h3>
+                            </a>
+                        </li>
+
+                        <li class="special-block__small">
+                            <a href="#">
+                                <img src="img/banner3.jpg" alt="Роскошные модные аксессуары">
+                                <h3 class="special-block__title">Luxirous & Trendy<strong class="special-block__strong">Accesories</strong></h3>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="special-block">
+                        <li class="special-block__big">
+                            <a href="#">
+                                <img src="img/banner2.jpg" alt="Горячее предложение для мужчин">
+                                <h3 class="special-block__title">30% offer<strong class="special-block__strong">Women</strong></h3>
+                            </a>
+                        </li>
+
+                        <li class="special-block__small">
+                            <a href="#">
+                                <img src="img/banner4.jpg" alt="Роскошные модные аксессуары">
+                                <h3 class="special-block__title">New Arrivals<strong class="special-block__strong">For
+                                        Kids</strong></h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="items">
+                <div class="container">
+                    <h2 class="items__title">Fetured Items</h2>
+                    <p class="items__text">Shop for items based on what we featured in this week</p>
+
+                    <div class="items-list">
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item1.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item2.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item3.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item4.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item5.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item6.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item7.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+
+                        <figure class="items-list__item items-list__item--hover">
+                            <img class="items-list__img" src="img/item8.jpg" alt="Товар">
+
+                            <figcaption class="items-content">
+                                <h4 class="items-list__title">Mango people T-shirt</h4>
+                                <div class="price-box">
+                                    <p class="items-list__price">$52.00</p>
+                                    <div class="product__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </figcaption>
+
+                            <div class="items-list__bg-dark">
+
+                            </div>
+                            <a class="items-list__link" href="#"></a>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </section>
+            <button class="items__button" type="button">Browse All Product<i class="fas fa-long-arrow-alt-right items__arrow-right"></i></button>
+
+
+</body>
+
+</html>
